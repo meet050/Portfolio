@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Banner */
+  .header-banner {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    padding: 60px 0;
+    text-align: center;
+  }
+  .header-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #66fcf1;
+  }
+  .header-banner p {
+    font-size: 1.25rem;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #1a1a1a;
+  }
+  .navbar-brand, .nav-link {
+    color: #e0e0e0 !important;
+  }
+  .nav-link:hover {
+    color: #66fcf1 !important;
+  }
+  
+  /* Section Headers */
+  .section-header {
+    border-bottom: 2px solid #66fcf1;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  .section-header h2 {
+    color: #66fcf1;
+  }
+  
+  /* Project Card */
+  .project-card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  .card-title {
+    color: #66fcf1;
+    font-size: 1.75rem;
+  }
+  .card-text, ul {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    color: #e0e0e0;
+    font-size: 0.9rem;
+  }
+  .footer a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Links in Footer */
+  .social-links a {
+    margin: 0 10px;
+  }
+  
+  /* Additional Graphics: Code-Like Background Effect */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    opacity: 0.2;
+    z-index: -1;
+  }
+  

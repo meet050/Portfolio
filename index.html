@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Futuristic Portfolio</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#recipeBuddy">Recipe Buddy</a></li>
+            <li class="nav-item"><a class="nav-link" href="#unityGame">Unity Game</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ecommerce">Ecommerce</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cobol">COBOL Project</a></li>
+            <li class="nav-item"><a class="nav-link" href="#calculator">Calculator</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header-banner">
+      <div class="container text-center">
+        <h1>Welcome to My Portfolio</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container py-5">
+    <!-- Recipe Buddy Project -->
+    <section id="recipeBuddy" class="project-section">
+      <div class="section-header">
+        <h2>Recipe Buddy - Android App</h2>
+      </div>
+      <div class="card project-card">
+        <div class="card-body">
+          <h3 class="card-title">Recipe Buddy</h3>
+          <p class="card-text">
+            Recipe Buddy enables users to create, view, and manage their recipes with ease. The app supports image capture via camera, stores recipe data in Firebase Firestore, and retrieves images from Firebase Storage. Google Authentication ensures secure login.
+          </p>
+          <h5>Features:</h5>
+          <ul>
+            <li>Google Authentication with persistent sessions.</li>
+            <li>Dynamic Recipe Grid with responsive design.</li>
+            <li>Detailed recipe view with a curved image header.</li>
+          </ul>
+          <h5>Drawbacks & Improvements:</h5>
+          <ul>
+            <li>Slow image loading on weak networks.</li>
+            <li>Auto sign-in with last-used account unless logged out manually.</li>
+            <li>Requires active internet connection; consider offline caching.</li>
+          </ul>
+          <p>
+            <strong>Role:</strong> Developer and Project Manager – responsible for key screen development, project management, and ensuring smooth user navigation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unity Game Project -->
+    <section id="unityGame" class="project-section">
+      <div class="section-header">
+        <h2>Unity Game - COSC_2200_GAME</h2>
+      </div>
+      <div class="card project-card">
+        <div class="card-body">
+          <h3 class="card-title">COSC_2200_GAME</h3>
+          <p class="card-text">
+            A 3D car racing game developed in Unity using C#. The game features multiple racing tracks, intelligent AI opponents, and realistic physics, offering an authentic racing experience.
+          </p>
+          <h5>Features:</h5>
+          <ul>
+            <li>Smooth and responsive player controls.</li>
+            <li>Intelligent AI cars competing on diverse tracks.</li>
+            <li>Authentic in-game UI including speedometer, lap counter, and timer.</li>
+          </ul>
+          <p>
+            <strong>Installation & Usage:</strong> Clone the repository from 
+            <a href="https://github.com/divyansh-kumar/COSC_2200_GAME" target="_blank">GitHub</a>, open it in Unity Hub, and press Play.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ecommerce Website Project -->
+    <section id="ecommerce" class="project-section">
+      <div class="section-header">
+        <h2>Ecommerce Website</h2>
+      </div>
+      <div class="card project-card">
+        <div class="card-body">
+          <h3 class="card-title">Ecommerce Website</h3>
+          <p class="card-text">
+            An ecommerce website built with a REST API that posts products to MongoDB and retrieves them for display. The site offers a complete shopping experience with product listings and a secure checkout process.
+          </p>
+          <p>
+            <strong>Repository:</strong> 
+            <a href="https://github.com/meetsGit/inft-2202-ice" target="_blank">GitHub Link</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COBOL Project -->
+    <section id="cobol" class="project-section">
+      <div class="section-header">
+        <h2>COBOL Project</h2>
+      </div>
+      <div class="card project-card">
+        <div class="card-body">
+          <h3 class="card-title">COBOL Data Processing</h3>
+          <p class="card-text">
+            A legacy COBOL program designed to detect two types of data from an input file and split it into two separate files named SL and REP. The program also generates a comprehensive report summarizing the data.
+          </p>
+          <p>
+            <strong>Role:</strong> Developer – focusing on structured programming and data manipulation in a legacy system environment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calculator Project -->
+    <section id="calculator" class="project-section">
+      <div class="section-header">
+        <h2>Calculator App</h2>
+      </div>
+      <div class="card project-card">
+        <div class="card-body">
+          <h3 class="card-title">Calculator</h3>
+          <p class="card-text">
+            My first Visual Studio application created during the 3rd term as a final project. This app laid the foundation for my object-oriented programming skills and introduced me to event-driven development.
+          </p>
+          <p>
+            <strong>Role:</strong> Developer – responsible for coding, testing, and debugging the application.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p>&copy; 2025 Meet Pandya. All rights reserved.</p>
+      <p class="social-links">
+        <a href="https://github.com/divyansh-kumar" target="_blank">GitHub</a> |
+        <a href="https://github.com/meetsGit" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
