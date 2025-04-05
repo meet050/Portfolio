@@ -100,3 +100,10 @@ body {
     z-index: -1;
   }
   
+  ul li,h5,p {
+    color: #e0e0e0; /* Keep it consistent */
+    font-family: 'Arial', sans-serif; /* Better readability */
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  
